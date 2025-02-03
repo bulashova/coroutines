@@ -5,5 +5,5 @@ data class CommentWithAuthor(
     val author: Author,
 ) {
     override fun toString(): String =
-        "\nАвтор комментария: ${author.name}\nid поста: ${comment.postId}\n${comment.content}\n"
+        "\nАвтор комментария: ${author.name}\nid поста: ${comment.postId}\nКомментарий: ${comment.content}\n"
 }
